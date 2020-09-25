@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sebug/terser-explorations/issues"
   },
-  "homepage": "https://github.com/sebug/terser-explorations#readme"
+  "homepage": "https://github.com/sebug/terser-explorations#readme",
+  "dependencies": {
+    "terser": "^5.3.2"
+  }
 }
