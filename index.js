@@ -1,9 +1,10 @@
 const { minify } = require('terser');
+const deasync = require('deasync');
 
 const trailingComma = 'function (a, b,) { return a + b; }';
 const lambdaExSimple = 'const f = (a,b) => a + b;';
 
-async function trySamples() {
+const trySamples = async () => {
     try {
 	const trailingCommaMinified = await minify(trailingComma);
     } catch (e) {

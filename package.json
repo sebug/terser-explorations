@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sebug/terser-explorations#readme",
   "dependencies": {
+    "deasync": "^0.1.20",
     "terser": "^5.3.2"
   }
 }
