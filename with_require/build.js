@@ -1,6 +1,6 @@
 ({
     baseUrl: "src",
     name: "index",
-    out: "index-built.js",
+    out: "index.js",
     optimize: 'none'
 });
