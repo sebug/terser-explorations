@@ -1,5 +1,7 @@
-define([], function () {
+define(['advancedFeatures'], function (Sandbox) {
     'use strict';
 
-    console.log('Hello from require');
+    const s = new Sandbox();
+
+    s.hello();
 });
