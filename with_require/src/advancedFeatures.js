@@ -3,7 +3,7 @@ define([], function () {
 
     class Sandbox {
 	constructor() {
-	    this.x = 42;
+	    this.x = 43;
 	    this.hello = this.hello.bind(this);
 	}
 
